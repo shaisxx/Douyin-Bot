@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="工业互联网产业联盟，是国内外先进制造业转型升级的重要内容和关键载体，是中国制造2025、互联网+协同制造战略布局的重要内容。在工业和信息化部的指导下，由工业、信息通信业、互联网等领域百余家单位共同发起成立工业互联网产业联盟，汇聚国内外产业力量，形成政产学研用协同推进的公共平台，加快推进工业互联网发展。">
+	<meta name="keyword" content="工业互联网产业联盟，中国制造2025，互联网+制造，制造业转型升级">
+	<title>会员登录</title>
+	<link rel="stylesheet" href="/siteFiles/index/css/reset-min.css?t=1643265892">
+	<link rel="stylesheet" href="/siteFiles/index/css/global.css?t=1643265892">
+	<link rel="stylesheet" href="/siteFiles/index/css/aii.css?t=1643265892">
+	<link rel="stylesheet" href="/siteFiles/index/css/swiper.min.css?t=1643265892">
+
+	<link rel="stylesheet" href="/static/plugins/layui/style/login.css" media="all">
+	<link rel="stylesheet" href="/static/plugins/layui/css/layui.css?t=1643265892" media="all">
+	<link rel="stylesheet" href="/static/plugins/font-awesome-4.7.0/css/font-awesome.css" media="all">
+
+	<script src="/siteFiles/index/js/jquery-3.3.1.min.js?t=1643265892"></script>
+	<script src="/siteFiles/index/js/swiper.min.js?t=1643265892"></script>
+	<script>
+		var siteDir = "/siteFiles/index/";
+	</script>
+</head>
+
+<body>
+	<!-- 工业互联网产业联盟 -->
+	<div class="aii-body">
+		<!-- 顶部 -->
+		<div class="aii-header">
+			<div class="aii-container header-pc">
+
+				<div class="h100">
+
+					<div class="header-top">
+						<a href="/">返回首页</a>
+												<a href="/index/login.html">登录</a>
+						<a href="/index/register.html" id="register">加入联盟</a>
+												<a href="/index/attactentFiles">资料下载</a><span>|</span>
+						<a href="http://en.aii-alliance.org/index.php" target="_blank" class="nav_li_last">English</a>
+					</div>
+
+					<ul class="header-nav">
+						<li class="nav-first-item active">
+							<a href="/index/2020Index.html">2020大会</a>
+						</li>
+												<li class="nav-first-item">
+							<a href="/index/c10.html" title="关于联盟">关于联盟</a>
+														<ul class="nav-second">
+																<li class="nav-second-item">
+									<a href="/index/c10.html" title="联盟介绍">联盟介绍</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c12.html" title="联盟章程">联盟章程</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c130.html" title="组织架构">组织架构</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c137.html" title="联盟文件">联盟文件</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c138.html" title="联系我们">联系我们</a>
+								</li>
+															</ul>
+													</li>
+												<li class="nav-first-item">
+							<a href="/index/c144.html" title="联盟动态">联盟动态</a>
+														<ul class="nav-second">
+																<li class="nav-second-item">
+									<a href="/index/c189.html" title="联盟动态">联盟动态</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c190.html" title="联盟活动">联盟活动</a>
+								</li>
+															</ul>
+													</li>
+												<li class="nav-first-item">
+							<a href="/index/c195.html" title="联盟活动">联盟活动</a>
+														<ul class="nav-second nav-second2">
+																<li class="nav-second-item">
+									<a href="/index/c195.html" title="活动日历">活动日历</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c196.html" title="年度峰会">年度峰会</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c197.html" title="征集活动">征集活动</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c198.html" title="会员大会/理事会">会员大会/理事会</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c199.html" title="联盟赛事">联盟赛事</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c200.html" title="工作组全会">工作组全会</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c201.html" title="联盟调研">联盟调研</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c202.html" title="主题展会">主题展会</a>
+								</li>
+															</ul>
+													</li>
+												<li class="nav-first-item">
+							<a href="/index/c145.html" title="联盟成果">联盟成果</a>
+														<ul class="nav-second">
+																<li class="nav-second-item">
+									<a href="/index/c145.html" title="白皮书">白皮书</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c146.html" title="技术标准">技术标准</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c147.html" title="测试床">测试床</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c150.html" title="应用案例">应用案例</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c156.html" title="解决方案">解决方案</a>
+								</li>
+															</ul>
+													</li>
+												<li class="nav-first-item">
+							<a href="/index/c184.html" title="产业观察">产业观察</a>
+														<ul class="nav-second">
+																<li class="nav-second-item">
+									<a href="/index/c184.html" title="专家观点">专家观点</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c185.html" title="产业观察">产业观察</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c225.html" title="各地政策文件">各地政策文件</a>
+								</li>
+															</ul>
+													</li>
+												<li class="nav-first-item">
+							<a href="/index/c157.html" title="工作组">工作组</a>
+														<ul class="nav-second nav-second2">
+																<li class="nav-second-item">
+									<a href="/index/c157.html" title="总体组">总体组</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c168.html" title="需求组">需求组</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c169.html" title="技术与标准组">技术与标准组</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c170.html" title="网络组">网络组</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c172.html" title="标识组">标识组</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c173.html" title="平台组">平台组</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c174.html" title="安全组">安全组</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c175.html" title="测试床组">测试床组</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c176.html" title="产业发展组">产业发展组</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c177.html" title="频谱组">频谱组</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c178.html" title="国际合作与对外交流组">国际合作与对外交流组</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c179.html" title="垂直行业组">垂直行业组</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c182.html" title="政策法规与投融资组">政策法规与投融资组</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c183.html" title="人才组">人才组</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c270.html" title="碳达峰碳中和组">碳达峰碳中和组</a>
+								</li>
+															</ul>
+													</li>
+												<li class="nav-first-item">
+							<a href="/index/c143.html" title="公共服务">公共服务</a>
+														<ul class="nav-second">
+																<li class="nav-second-item">
+									<a href="/index/c143.html#ggfw_zh" title="综合">综合</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c143.html#ggfw_wl" title="网络">网络</a>
+								</li>
+																<li class="nav-second-item">
+									<a href="/index/c143.html#ggfw_pt" title="平台">平台</a>
+								</li>
+															</ul>
+													</li>
+						
+					</ul>
+
+					<div class="clearB"></div>
+				</div>
+				<div class="aii-logo-container">
+					<a href="/" class="aii-logo">
+						<img src="/siteFiles/index/images/logo.png" alt="">
+					</a>
+					<form action="/index/search" method="get" class="aii-search">
+						<input type="text" name="keyword" value="" autocomplete="off" placeholder="" class="search-input">
+						<button class="search-btn">搜索</button>
+					</form>
+				</div>
+			</div>
+			<div class="mobile_nav">
+				<img src="/siteFiles/index/images/logo_nav.png" class="mobile_nav_logo">
+				<img src="/siteFiles/index/images/mobile_nav_btn.png" class="mobile_nav_btn">
+
+				<div style="clear: both;"></div>
+				<ul class="mobile_nav_list">
+					<li class="nav-first-item active">
+						<a href="/index/2020Index.html">2020大会</a>
+					</li>
+										<li class="nav-first-item">
+						<a href="/index/c10.html" title="关于联盟">关于联盟</a>
+					</li>
+										<li class="nav-first-item">
+						<a href="/index/c144.html" title="联盟动态">联盟动态</a>
+					</li>
+										<li class="nav-first-item">
+						<a href="/index/c195.html" title="联盟活动">联盟活动</a>
+					</li>
+										<li class="nav-first-item">
+						<a href="/index/c145.html" title="联盟成果">联盟成果</a>
+					</li>
+										<li class="nav-first-item">
+						<a href="/index/c184.html" title="产业观察">产业观察</a>
+					</li>
+										<li class="nav-first-item">
+						<a href="/index/c157.html" title="工作组">工作组</a>
+					</li>
+										<li class="nav-first-item">
+						<a href="/index/c143.html" title="公共服务">公共服务</a>
+					</li>
+					
+				</ul>
+
+				<div class="mobile_nav_a">
+					<p><img src="/siteFiles/index/images/mobile_nav_a003.png"><a href="/index/login.html" id="mobileLogin">&nbsp;会员登录/注册</a></p>
+					<p><img src="/siteFiles/index/images/mobile_nav_a002.png"><a href="/index/attactentFiles">&nbsp;资料下载</a></p>
+				</div>
+			</div>
+			<div class="header-mobile">
+				<!--切换至英文链接-->
+				<a href="http://en.aii-alliance.org/index.php" target="_blank"><img src="/siteFiles/index/images/mobile_englist.png" class="mobile_nav_english"></a>
+				<a href="/">
+					<img src="/siteFiles/index/images/logo.png" class="logo">
+				</a>
+				<img src="/siteFiles/index/images/mobile_btn.png" class="logo_box_btn">
+				<form id="searchForm" action="/index/search" method="get">
+					<div class="search">
+						<input type="hidden" name="pageIndex" id="pageIndex" value="">
+						<input type="text" id="keyword" name="keyword" value="">
+						<div class="search_btn"><img src="/siteFiles/index/images/search_btn2.png"></div>
+						<div class="search_btn2"><img src="/siteFiles/index/images/search_btn2.png" class=""></div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<script>
+			jQuery(function($) {
+				$(".nav-first-item").hover(function() {
+					$(this).find('ul').stop().slideDown();
+				}, function() {
+					$(this).find('ul').stop().hide();
+				});
+				$('.search_btn').click(function() {
+					$('#searchForm').submit();
+				})
+				$(".search_btn2").click(function() {
+					if (!$(".search input").hasClass('search_display')) {
+						$(".search input").addClass("search_display")
+						$(".search input").css({
+							"left": "-200px"
+						})
+						$(".search_btn2").css({
+							"display": "none"
+						})
+					} else {
+						$(".search input").removeClass("search_display")
+					}
+				})
+				$(".logo_box_btn").click(function() {
+					$(".mobile_nav").stop().animate({
+						"right": "0px"
+					}, 300)
+					$("body").addClass("body_hidden")
+				})
+				$(".mobile_nav_btn").click(function() {
+					$(".mobile_nav").stop().animate({
+						"right": "-100%"
+					}, 300)
+					$("body").removeClass("body_hidden")
+				})
+			})
+		</script>
+		<!-- 顶部== -->
+
+		<!-- 内容区 -->
+		<div class="aii-content">
+
+			<div class="login-container">
+				<div class="login-tabs">
+					<a class="login-tab active" href="/index/login.html">会员登录</a>
+					<a class="login-tab" href="/index/register.html">加入联盟</a>
+				</div>
+				<div class="layadmin-user-login-box layadmin-user-login-body layui-form">
+					<div class="layui-form-item">
+						<label class="layadmin-user-login-icon layui-icon layui-icon-username" for="LAY-user-login-username"></label>
+						<input type="text" name="user_name" id="LAY-user-login-username" lay-verify="required" placeholder="用户名" class="layui-input">
+					</div>
+					<div class="layui-form-item">
+						<label class="layadmin-user-login-icon layui-icon layui-icon-password" for="LAY-user-login-password"></label>
+						<input type="password" name="password" id="LAY-user-login-password" lay-verify="required" placeholder="密码" class="layui-input">
+					</div>
+					<div class="layui-form-item">
+						<div class="layui-row">
+							<div class="layui-col-xs7">
+								<label class="layadmin-user-login-icon layui-icon layui-icon-vercode" for="LAY-user-login-vercode"></label>
+								<input type="text" name="captcha" id="LAY-user-login-vercode" lay-verify="required" placeholder="图形验证码" class="layui-input">
+							</div>
+							<div class="layui-col-xs5">
+								<div style="margin-left: 10px;">
+									<img height="38" src="/api.php/v1/yzm.html" onclick="layui.jquery(this).attr('src', '/api.php/v1/yzm.html?' + Math.floor(Math.random()*100));" class="layadmin-user-login-codeimg" id="LAY-user-get-vercode">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="layui-form-item" style="margin-bottom: 20px;">
+						<a href="/index/forget.html" class="layadmin-user-jump-change layadmin-link" style="margin-top: 7px;">忘记密码？</a>
+					</div>
+					<div class="layui-form-item">
+						<button class="layui-btn layui-btn-fluid" id="login" lay-submit lay-filter="LAY-user-login-submit">登录</button>
+						<p></p>
+						<a href="/" class="layui-btn layui-btn-fluid layui-btn-primary">返回首页</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 内容区== -->
+
+		<!-- 页脚 -->
+		<div class="aii-footer">
+
+			<div class="aii-container pr footer-pc">
+				<div class="footer-top">
+					<ul class="footer_nav">
+
+												<li>
+							<h2><a href="/index/c10.html" title="关于联盟">关于联盟</a></h2>
+							<div class="footer_line"></div>
+														<p>
+								<a href="/index/c10.html" title="联盟介绍">联盟介绍</a>
+							</p>
+														<p>
+								<a href="/index/c12.html" title="联盟章程">联盟章程</a>
+							</p>
+														<p>
+								<a href="/index/c130.html" title="组织架构">组织架构</a>
+							</p>
+														<p>
+								<a href="/index/c137.html" title="联盟文件">联盟文件</a>
+							</p>
+														<p>
+								<a href="/index/c138.html" title="联系我们">联系我们</a>
+							</p>
+																				</li>
+												<li>
+							<h2><a href="/index/c144.html" title="联盟动态">联盟动态</a></h2>
+							<div class="footer_line"></div>
+														<p>
+								<a href="/index/c189.html" title="联盟动态">联盟动态</a>
+							</p>
+														<p>
+								<a href="/index/c190.html" title="联盟活动">联盟活动</a>
+							</p>
+																				</li>
+												<li>
+							<h2><a href="/index/c195.html" title="联盟活动">联盟活动</a></h2>
+							<div class="footer_line"></div>
+														<p>
+								<a href="/index/c195.html" title="活动日历">活动日历</a>
+							</p>
+														<p>
+								<a href="/index/c196.html" title="年度峰会">年度峰会</a>
+							</p>
+														<p>
+								<a href="/index/c197.html" title="征集活动">征集活动</a>
+							</p>
+														<p>
+								<a href="/index/c198.html" title="会员大会/理事会">会员大会/理事会</a>
+							</p>
+														<p>
+								<a href="/index/c199.html" title="联盟赛事">联盟赛事</a>
+							</p>
+														<p>
+								<a href="/index/c200.html" title="工作组全会">工作组全会</a>
+							</p>
+														<p>
+								<a href="/index/c201.html" title="联盟调研">联盟调研</a>
+							</p>
+														<p>
+								<a href="/index/c202.html" title="主题展会">主题展会</a>
+							</p>
+																				</li>
+												<li>
+							<h2><a href="/index/c145.html" title="联盟成果">联盟成果</a></h2>
+							<div class="footer_line"></div>
+														<p>
+								<a href="/index/c145.html" title="白皮书">白皮书</a>
+							</p>
+														<p>
+								<a href="/index/c146.html" title="技术标准">技术标准</a>
+							</p>
+														<p>
+								<a href="/index/c147.html" title="测试床">测试床</a>
+							</p>
+														<p>
+								<a href="/index/c150.html" title="应用案例">应用案例</a>
+							</p>
+														<p>
+								<a href="/index/c156.html" title="解决方案">解决方案</a>
+							</p>
+																				</li>
+												<li>
+							<h2><a href="/index/c184.html" title="产业观察">产业观察</a></h2>
+							<div class="footer_line"></div>
+														<p>
+								<a href="/index/c185.html" title="产业观察">产业观察</a>
+							</p>
+																				</li>
+												<li>
+							<h2><a href="/index/c157.html" title="工作组">工作组</a></h2>
+							<div class="footer_line"></div>
+														<p>
+								<a href="/index/c157.html" title="总体组">总体组</a>
+							</p>
+														<p>
+								<a href="/index/c168.html" title="需求组">需求组</a>
+							</p>
+														<p>
+								<a href="/index/c169.html" title="技术与标准组">技术与标准组</a>
+							</p>
+														<p>
+								<a href="/index/c173.html" title="平台组">平台组</a>
+							</p>
+														<p>
+								<a href="/index/c174.html" title="安全组">安全组</a>
+							</p>
+														<p>
+								<a href="/index/c175.html" title="测试床组">测试床组</a>
+							</p>
+																				</li>
+												<li>
+							<h2><a href="/index/c143.html" title="公共服务">公共服务</a></h2>
+							<div class="footer_line"></div>
+														<p>
+								<a href="/index/c143.html#ggfw_zh" title="综合">综合</a>
+							</p>
+														<p>
+								<a href="/index/c143.html#ggfw_wl" title="网络">网络</a>
+							</p>
+														<p>
+								<a href="/index/c143.html#ggfw_pt" title="平台">平台</a>
+							</p>
+																				</li>
+						
+						<div class="clearB"></div>
+					</ul>
+
+					<div class="footer_follow">
+						<span>
+							<img src="/siteFiles/index/images/wx-gzh.jpg"> <b>AII微信公众号</b>
+						</span>
+						<span>
+							<img src="/siteFiles/index/images/tt-qr.jpg" style="margin-left: 57%;">
+							<b style="margin-left: 57%;">AII头条号</b>
+						</span>
+					</div>
+
+					<div class="footer_form">
+						<script src="/siteFiles/index/js/layer.js?t=1643265892"></script>
+						
+                                <link rel="stylesheet" href="/static/lib/bootstrap-4.0.0/css/bootstrap.css?t=1643265892">
+                                <script src="/static/lib/jquery-3.3.1.min.js"></script>    
+                                <script src="/static/lib/bootstrap-4.0.0/js/bootstrap.js"></script>    
+                                <script src="/static/lib/serializeJson.js"></script>    
+                                <script src="/static/lib/jquery.validate.min.js"></script>  
+                                 <div class="form-desc">留下您的宝贵建议</div><form class="form-horizontal"  id="form_1_1">
+                                
+                                <div class="form-group" hidden>
+                                    <label class="col-2 col-form-label">timeStamp：</label>
+                                    <div class="col-10">
+                                        <input type="hidden" name="timeStamp" value="1643265892" readonly class="">
+                                    </div>
+                                </div>
+                                <div class="form-group" hidden>
+                                    <label class="col-2 col-form-label">nonce：</label>
+                                    <div class="col-10">
+                                        <input type="hidden" name="nonce" value="lhd96F" readonly class="">
+                                    </div>
+                                </div>
+                                <div class="form-group" hidden>
+                                    <label class="col-2 col-form-label">signature：</label>
+                                    <div class="col-10">
+                                        <input type="hidden" name="signature" value="629F87D47E0477F73137A40604885CCD" readonly class="">
+                                    </div>
+                                </div>
+                                <div class="form-group row" hidden>
+                                    <label class="col-2 col-form-label">ID：</label>
+                                    <div class="col-10">
+                                        <input type="hidden" name="form_id" value="1" readonly class="layui-input">
+                                    </div>
+                                </div><div class="form-group row">
+                                                <label class="col-2 col-form-label">姓名 ：</label>
+                                                <div class="col-10">
+                                                    <input type="text" name="user_name" data-param='' placeholder="请输入您的姓名" class="form-control"/>
+                                                </div>
+                                            </div><div class="form-group row">
+                                                <label class="col-2 col-form-label">邮箱 ：</label>
+                                                <div class="col-10">
+                                                    <input type="text" name="email" data-param='' placeholder="请输入邮箱地址" class="form-control"/>
+                                                </div>
+                                            </div><div class="form-group row">
+                                                <label class="col-2 col-form-label">电话 ：</label>
+                                                <div class="col-10">
+                                                    <input type="text" name="phone" data-param='' placeholder="请输入您的电话号码" class="form-control"/>
+                                                </div>
+                                            </div><div class="form-group row">
+                                                <label class="col-2 col-form-label">信息 ：</label>
+                                                <div class="col-10">
+                                                    <textarea type="text" name="requirement" rows="3"  placeholder="请输入信息" class="form-control"></textarea>
+                                                </div>
+                                            </div><div class="form-group row">
+                                    <div class="col-10 offset-2">
+                                        <button class="btn btn-primary" type="submit" id="submitBtn_1_1">立即提交</button>
+                                        <button class="btn btn-primary" type="reset" id="resetFormBtn_1_1">重置</button>
+                                    </div>
+                                </div></form><script src="/static/plugins/js/leftTime.min.js"></script>
+                                <script>
+                                
+                                $.validator.addMethod("phone", function(value, element) {
+                                    return this.optional(element) || /^1\d{10}$/.test(value);
+                                }, "格式有误");
+                                $.validator.addMethod("numeric", function(value, element) {
+                                    return this.optional(element) || /^\d+$/.test(value);
+                                }, "格式有误");
+                                $.validator.addMethod("identity", function(value, element) {
+                                    return this.optional(element) || /^\d{18}$/.test(value);
+                                }, "格式有误");
+                                $.validator.addMethod("alpha", function(value, element) {
+                                    return this.optional(element) || /^\[a-zA-Z]+$/.test(value);
+                                }, "格式有误");
+                                $.validator.addMethod("alpha_dash", function(value, element) {
+                                    return this.optional(element) || /^\[a-zA-Z0-9_-]+$/.test(value);
+                                }, "格式有误");
+                                $.validator.addMethod("alpha_num", function(value, element) {
+                                    return this.optional(element) || /^\[a-zA-Z0-9]+$/.test(value);
+                                }, "格式有误");
+                                $.validator.addMethod("alpha_spaces", function(value, element) {
+                                    return this.optional(element) || /^\[a-zA-Z ]+$/.test(value);
+                                }, "格式有误");
+                                $.validator.addMethod("min_value", function(value, element) {
+                                    var param = $(element).data("param");
+                                    var min_value = 100000000;
+//                                    if(typeof param =="string" && param!=""){
+//                                        param = JSON.parse(param);
+//                                    }
+                                    if(param["min_value"]){
+                                        min_value = parseFloat(param["min_value"]);
+                                    }
+                                    console.log(value);
+                                    return value>min_value;
+                                }, "格式有误");
+                                $.validator.addMethod("max_value", function(value, element) {
+                                    var param = $(element).data("param");
+                                    var max_value = 0;
+//                                    if(typeof param =="string" && param!=""){
+//                                        param = JSON.parse(param);
+//                                    }
+                                    if(param["max_value"]){
+                                        max_value = parseFloat(param["max_value"]);
+                                    }
+                                    return value<max_value;
+                                }, "格式有误");
+                                
+ 
+                                var fields = [{"form_id":1,"form_name":"\u5728\u7ebf\u7559\u8a00","form_desc":"\u7559\u4e0b\u60a8\u7684\u5b9d\u8d35\u5efa\u8bae","field_id":1,"field_name":"user_name","field_tip":"\u8bf7\u8f93\u5165\u60a8\u7684\u59d3\u540d","field_type":"Input","display_name":"\u59d3\u540d","field_validate":"required","sort_index":1,"validate_param":null},{"form_id":1,"form_name":"\u5728\u7ebf\u7559\u8a00","form_desc":"\u7559\u4e0b\u60a8\u7684\u5b9d\u8d35\u5efa\u8bae","field_id":11,"field_name":"email","field_tip":"\u8bf7\u8f93\u5165\u90ae\u7bb1\u5730\u5740","field_type":"Input","display_name":"\u90ae\u7bb1","field_validate":"","sort_index":2,"validate_param":null},{"form_id":1,"form_name":"\u5728\u7ebf\u7559\u8a00","form_desc":"\u7559\u4e0b\u60a8\u7684\u5b9d\u8d35\u5efa\u8bae","field_id":2,"field_name":"phone","field_tip":"\u8bf7\u8f93\u5165\u60a8\u7684\u7535\u8bdd\u53f7\u7801","field_type":"Input","display_name":"\u7535\u8bdd","field_validate":"required|phone","sort_index":3,"validate_param":null},{"form_id":1,"form_name":"\u5728\u7ebf\u7559\u8a00","form_desc":"\u7559\u4e0b\u60a8\u7684\u5b9d\u8d35\u5efa\u8bae","field_id":3,"field_name":"requirement","field_tip":"\u8bf7\u8f93\u5165\u4fe1\u606f","field_type":"Textarea","display_name":"\u4fe1\u606f","field_validate":"","sort_index":4,"validate_param":null}];
+                                var rules = {},message = {};
+                                for(var i=0;i<fields.length;i++){
+                                    var validate = fields[i].field_validate;
+                                    var validate_param = fields[i].validate_param;
+                                    if(validate_param){
+                                        validate_param = JSON.parse(validate_param);
+                                    }
+                                    if(!validate){
+                                        validate="";
+                                    }
+                                    var validate_arr = validate.split("|");
+                                    var rule_obj = {};
+                                    var message_obj = {};
+                                    for(var j=0;j<validate_arr.length;j++){
+                                        if(validate_arr[j]!=''){
+                                            switch (validate_arr[j]) {
+                                                case 'required':
+                                                    rule_obj[validate_arr[j]]=true;
+                                                    message_obj[validate_arr[j]] = fields[i].display_name+'不能为空';
+                                                    break;
+                                                case 'number':
+                                                    rule_obj[validate_arr[j]]=true;
+                                                    message_obj[validate_arr[j]] = fields[i].display_name+'只能为数字';
+                                                    break;
+                                                case 'phone':
+                                                    rule_obj[validate_arr[j]]=true;
+                                                    message_obj[validate_arr[j]] = fields[i].display_name+'格式有误，请输入正确的手机号码';
+                                                    break;
+                                                case 'url':
+                                                    rule_obj[validate_arr[j]]=true;
+                                                    message_obj[validate_arr[j]] = fields[i].display_name+'格式有误，请输入正确的网址';
+                                                    break;
+                                                case 'numeric':
+                                                    rule_obj[validate_arr[j]]=true;
+                                                    message_obj[validate_arr[j]] = fields[i].display_name+'必须仅包含数字';
+                                                    break;
+                                                case 'date':
+                                                    rule_obj[validate_arr[j]]=true;
+                                                    message_obj[validate_arr[j]] = fields[i].display_name+'格式有误，请输入正确的日期';
+                                                    break;
+                                                case 'identity':
+                                                    rule_obj[validate_arr[j]]=true;
+                                                    message_obj[validate_arr[j]] = fields[i].display_name+'格式有误，请输入正确的身份证号码';
+                                                    break;
+                                                case 'alpha':
+                                                    rule_obj[validate_arr[j]]=true;
+                                                    message_obj[validate_arr[j]] = fields[i].display_name+'只能包含字母';
+                                                    break;
+                                                case 'alpha_dash':
+                                                    rule_obj[validate_arr[j]]=true;
+                                                    message_obj[validate_arr[j]] = fields[i].display_name+'只能包含字母、数字、破折号和下划线';
+                                                    break;
+                                                case 'alpha_num':
+                                                    rule_obj[validate_arr[j]]=true;
+                                                    message_obj[validate_arr[j]] = fields[i].display_name+'只能包含字母和数字';
+                                                    break;
+                                                case 'alpha_spaces':
+                                                    rule_obj[validate_arr[j]]=true;
+                                                    message_obj[validate_arr[j]] = fields[i].display_name+'只能包含字母和空格';
+                                                    break;
+                                                case 'creditcard':
+                                                    rule_obj[validate_arr[j]]=true;
+                                                    message_obj[validate_arr[j]] = fields[i].display_name+'格式有误，请输入正确的信用卡号';
+                                                    break;
+                                                case 'between':
+                                                    rule_obj['range']=validate_param[validate_arr[j]].split(',');
+                                                    message_obj[validate_arr[j]] = fields[i].display_name+'的值只能在'+validate_param[validate_arr[j]]+'之间';
+                                                    break;
+                                                case 'ip':
+                                                    rule_obj[validate_arr[j]]=true;
+                                                    message_obj[validate_arr[j]] = fields[i].display_name+'格式有误，请输入正确的IP地址';
+                                                    break;
+                                                case 'maxlength':
+                                                    rule_obj[validate_arr[j]]=validate_param[validate_arr[j]];
+                                                    message_obj[validate_arr[j]] = fields[i].display_name+'最大长度为'+validate_param[validate_arr[j]];
+                                                    break;
+                                                case 'max_value':
+                                                    rule_obj[validate_arr[j]]=validate_param[validate_arr[j]];
+                                                    message_obj[validate_arr[j]] = fields[i].display_name+'最大值为'+validate_param[validate_arr[j]];
+                                                    break;
+                                                case 'minlength':
+                                                    rule_obj[validate_arr[j]]=validate_param[validate_arr[j]];
+                                                    message_obj[validate_arr[j]] = fields[i].display_name+'最小长度为'+validate_param[validate_arr[j]];
+                                                    break;
+                                                case 'min_value':
+                                                    rule_obj[validate_arr[j]]=validate_param[validate_arr[j]];
+                                                    message_obj[validate_arr[j]] = fields[i].display_name+'最小值为'+validate_param[validate_arr[j]];
+                                                    break;
+                                                case 'regex':
+                                                    break;
+                                            }
+                                        }
+                                    }
+                                    rules[fields[i].field_name] = rule_obj;
+                                    message[fields[i].field_name] = message_obj;
+                            
+                                }
+                                
+                                var formValidate = $("#form_1_1").validate({
+                                    errorElement: "div",
+                                    errorClass: "help-block",
+                                    focusInvalid: false,
+                                    ignore: "",
+                                    rules: rules,
+                                    messages: message,
+                                    highlight: function (el) {
+                                        $(el).closest(".form-group").removeClass("has-info").addClass("has-error")
+                                    },
+                                    success: function (el) {
+                                        $(el).closest(".form-group").removeClass("has-error");
+                                        $(el).remove();
+                                    },
+                                    errorPlacement: function (error, element) {
+                                        if (element.is('input[type=checkbox]') || element.is('input[type=radio]')) {
+                                            var controls = element.closest('div[class*="col-"]');
+                                            if (controls.find(':checkbox,:radio').length > 0) {
+                                                controls.append(error);
+                                                console.log(error);
+                                            }
+                                            else {
+                                                error.insertAfter(element.nextAll('.lbl:eq(0)').eq(0));
+                                            }
+                                        } else if (element.is('.chosen-select')) {
+                                            error.insertAfter(element.siblings('[class*="chosen-container"]:eq(0)'));
+                                        } else error.insertAfter(element);
+                                    },
+                                    submitHandler: function (form) {
+                                        submitForm();
+                                    }
+                                });
+                                
+                                function submitForm(){
+                                    var index = layer.load(0, {shade: false}); //0代表加载的风格，支持0-2
+                                    var formInfo=$("#form_1_1").serializeJSON();
+                                    $.ajax({
+                                        url: "/api.php/v1/submitForm.html",
+                                        type: "POST",
+                                        data: formInfo,
+                                        dataType: "json",
+                                        success: function (res) {
+                                            if (res.code == 0) {
+                                                layer.close(index);
+                                                layer.msg(res.message,{time:2000},function () {
+                                                    $("#resetFormBtn_1_1").click();
+                                                });
+                                            } else {
+                                                layer.msg(res.message,{time:2000},function () {
+                                                });
+                                                layer.close(index);
+                                            }
+                                        },
+                                        error: function (e) {
+                                            layer.close(index);
+                                            layer.alert("接口报错了", {icon: 0, title: "友情提示"});
+                                        }
+                                    });
+                                }
+                                </script>					</div>
+
+				</div>
+				<div class="footer-bottom">
+					<div class="footer-bq">
+						<span>京ICP备09013372号-15</span>
+						<span>工业互联网产业联盟版权所有</span>
+					</div>
+					<div class="footer-bottom-links">
+						<a href="http://www.miit.gov.cn/" target="_blank">工业和信息化部</a> | <a href="http://www.caict.ac.cn/" target="_blank">中国信息通信研究院 </a> | <a href="http://www.iiconsortium.org/" target="_blank">美国工业互联网联盟</a> | <a href="http://www.ccsa.org.cn/" target="_blank">中国通信标准化协会</a>
+					</div>
+					<div class="clearB"></div>
+				</div>
+			</div>
+			<div class="footer-mobile">工业互联网产业联盟版权所有</div>
+		</div>
+		<div id="back_top" class="back-top"></div>
+		<script>
+			jQuery(function($) {
+				$(window).scroll(function() {
+					var scrollTop = $(document).scrollTop()
+					if (scrollTop > 500) {
+						$(".back-top").show();
+					} else {
+						$(".back-top").hide();
+					}
+				})
+				$('#back_top').click(function() {
+					$('body,html').animate({
+						scrollTop: 0
+					}, 500);
+				})
+			})
+		</script>
+		<!-- 页脚== -->
+	</div>
+	<!-- 工业互联网产业联盟== -->
+	<script src="/static/plugins/layui/layui.js"></script>
+	<script>
+		layui.config({
+			base: '/static/plugins/layui/' //静态资源所在路径
+		}).extend({
+			index: 'lib/index', //主入口模块
+			tool: 'lib/extend/tool',
+		}).use(['layer', 'table', 'tool', 'form'], function() {
+			var form = layui.form,
+				$ = layui.$
+			//提交
+			form.on('submit(LAY-user-login-submit)', function(data) {
+				$.ajax({
+					url: "/api.php/v1/login.html",
+					type: 'POST',
+					data: data.field,
+					dataType: "json",
+					success: function(res) {
+						if (res.code == 0) {
+							layer.msg(res.message, {
+								icon: 1,
+								time: 1000 //2秒关闭（如果不配置，默认是3秒）
+							}, function() {
+								window.location.href = "/index/usercenter.html";
+							});
+							console.log("/index/index.html");
+						} else {
+							layer.msg(res.message);
+							$('#LAY-user-get-vercode').click();
+							if (res.code == -1) {
+								setTimeout(function() {
+									window.location.href = "/index/pwdChange.html";
+								}, 1000);
+							}
+						}
+					},
+					error: function(e) {
+						layer.alert('接口报错了', {
+							icon: 0,
+							title: '友情提示'
+						});
+						$('#LAY-user-get-vercode').click();
+					}
+				});
+				return false;
+			});
+			document.onkeydown = function(event) {
+				var e = event || window.event;
+				if (e && e.keyCode == 13) { //回车键的键值为13
+					$("#login").click(); //调用登录按钮的登录事件
+				}
+			};
+		})
+	</script>
+</body>
+
+</html>
