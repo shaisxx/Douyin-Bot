@@ -13,8 +13,7 @@ class auto_adb():
             self.adb_path = adb_path
         except OSError:
             if platform.system() == 'Windows':
-                # adb_path = os.path.join('Tools', "adb", 'adb.exe')
-                adb_path = 'F:\\software\\Android\\android-sdk\\platform-tools\\adb.exe'
+                adb_path = os.path.join('Tools', "adb", 'adb.exe')
                 try:
                     subprocess.Popen(
                         [adb_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
